@@ -3,22 +3,184 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>같은 공간 웹페이지 테스트</title>
+  <title>Synctank - Drop anything. Get synced.</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>👋 같은 공간 사람들만 볼 수 있는 페이지</h1>
-  <p>이건 테스트용 예시입니다!</p>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">Synctank</div>
+        <nav class="nav">
+          <a href="#features">Features</a>
+          <a href="#solar-ai">Solar AI</a>
+          <a href="#support">Support</a>
+          <a href="#team" class="team-link">Team-GO!<span class="badge">26</span></a>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-  <video width="320" controls>
-    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-    브라우저가 영상을 지원하지 않습니다.
-  </video>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Drop anything.<br>Get synced.</h1>
+      <p class="hero-subtitle">Synctank is your AI Agent.<br>Throw in anything on Mac - text, screenshots, files.<br>Your Agent manages it and sends it back as reminders on iPhone.</p>
+      <a href="#support" class="btn-primary">Support Synctank!</a>
+    </div>
+  </section>
 
-  <div class="like-container">
-    <button id="like-btn">👍 좋아요</button>
-    <span id="like-count">0</span>
-  </div>
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">Synctank Feature A</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">Synctank Feature B</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">Synctank Feature C</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">Synctank Feature D</div>
+        </div>
+      </div>
+      <div class="feature-icon-large">Synctank Icon</div>
+    </div>
+  </section>
+
+  <!-- Supporters Section -->
+  <section class="supporters">
+    <div class="container">
+      <h2 class="section-title">167 people are supporting Synctank!</h2>
+      <p class="section-description">
+        Built rapidly at Junction Asia, this app showcases the power of modern AI collaboration.<br>
+        We are Team GO! aiming for business innovation by reducing repetitive task leaks with Solar Pro 2 AI.
+      </p>
+      <div class="video-placeholder">
+        <p>Your browser does not support the video tag.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits">
+    <div class="container">
+      <!-- No more missed appointments -->
+      <div class="benefit-item">
+        <h3 class="benefit-title">No more missed appointments</h3>
+        <p class="benefit-description">
+          Focused on work but a new meeting comes up? Just drop a screenshot of the message. 
+          Synctank will remind you later on your iPhone, so you stay in flow.
+        </p>
+        <div class="video-placeholder">
+          <p>Your browser does not support the video tag.</p>
+        </div>
+      </div>
+
+      <!-- No more forgotten files -->
+      <div class="benefit-item">
+        <h3 class="benefit-title">No more forgotten files</h3>
+        <p class="benefit-description">
+          Need to handle a document later? Drop it in. Synctank's SolarAI organizes it automatically, 
+          turning clutter into clear categories and insights.
+        </p>
+        <div class="video-placeholder">
+          <p>Your browser does not support the video tag.</p>
+        </div>
+        <div class="video-placeholder">
+          <p>Your browser does not support the video tag.</p>
+        </div>
+      </div>
+
+      <!-- No more lost Ideas -->
+      <div class="benefit-item">
+        <h3 class="benefit-title">No more lost Ideas</h3>
+        <p class="benefit-description">
+          An idea strikes while you're working? Throw it into Synctank. 
+          It will resurface as an insight card when you need it most.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Upstage AI Performance -->
+  <section class="upstage-section">
+    <div class="container">
+      <h2 class="section-title">Upstage AI Performance</h2>
+    </div>
+  </section>
+
+  <!-- Powered By Section -->
+  <section class="powered-by" id="solar-ai">
+    <div class="container">
+      <h2 class="section-title">Powered by<br><span class="highlight">Solar Pro 2 AI</span></h2>
+      <p class="section-description">
+        Advanced reasoning capabilities that understand your work in multiple languages.
+      </p>
+      <div class="powered-grid">
+        <div class="powered-item">
+          <h3 class="powered-title">Superior Reasoning</h3>
+          <p class="powered-description">
+            Solar Pro 2's advanced AI engine provides deep understanding and intelligent organization of your content
+          </p>
+        </div>
+        <div class="powered-item">
+          <h3 class="powered-title">Multilingual Excellence</h3>
+          <p class="powered-description">
+            Specialized in Korean, English, and Japanese with native-level comprehension and context awareness
+          </p>
+        </div>
+        <div class="powered-item">
+          <h3 class="powered-title">Performance Optimized</h3>
+          <p class="powered-description">
+            Lightning-fast processing that keeps up with your workflow without any delays or interruptions
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience" id="support">
+    <div class="container">
+      <h2 class="section-title">Experience<br>Synctank today.</h2>
+      <p class="section-description">
+        We're showcasing live at <strong>Junction Asia</strong>. Come see how your AI Agent works in real time, 
+        Opening up new possibilities for business innovation through maximized productivity.
+      </p>
+      <a href="#support" class="btn-primary">Support Synctank!</a>
+    </div>
+  </section>
+
+  <!-- Share Thoughts Section -->
+  <section class="share-thoughts">
+    <div class="container">
+      <h3 class="share-title">💬 Share Your Thoughts</h3>
+      <p class="share-description">What do you think about Synctank? Share your feedback, ideas, or questions below!</p>
+      <div class="feedback-form">
+        <textarea placeholder="Your feedback here..." rows="4"></textarea>
+        <button class="btn-secondary">Submit</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Synctank</div>
+        <p class="footer-tagline">Drop anything. Get synced.</p>
+        <p class="footer-copyright">© 2025 Synctank. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
